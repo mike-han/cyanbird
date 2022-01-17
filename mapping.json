@@ -1,0 +1,44 @@
+{
+  "url": "https://doc.arcgis.com/en/experience-builder/get-started/what-is-arcgis-experience-builder.htm",
+  "selectors": [
+    "#GUID-C81E6A4E-0E02-4891-8F98-9818E3883182"
+  ],
+  "widget": {
+    "template": {
+      "url": "https://doc.arcgis.com/en/experience-builder/configure-widgets/${widget-name}.htm",
+      "selectors": [
+        "main p"
+      ]
+    },
+    "widgets": [
+      "bookmark-widget",
+      "branch-version-management-widget",
+      "button-widget",
+      "card-widget",
+      "chart-widget",
+      "coordinate-conversion-widget",
+      "divider-widget",
+      "edit-(beta)-widget",
+      "elevation-profile-widget",
+      "embed-widget",
+      "feature-info-widget",
+      "filter-widget",
+      "fly-controller-widget",
+      "image-widget",
+      "legend-widget",
+      "list-widget",
+      "map-widget",
+      "map-layers-widget",
+      "menu-widget",
+      "oriented-imagery-widget",
+      "query-widget",
+      "search-widget",
+      "share-widget",
+      "suitability-modeler-widget",
+      "survey-widget",
+      "table-widget",
+      "text-widget",
+      "widget-controller-widget"
+    ]
+  }
+}
