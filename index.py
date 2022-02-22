@@ -38,6 +38,5 @@ widget_names = mapping["widget"]["widgets"]
 widget_data = get_widgets_data(widget_template, widget_names)
 
 project["widget"] = widget_data
-
-with open('file.json', 'w') as file:
+with open('data/project.json', 'w') as file:
      file.write(json.dumps(project))
