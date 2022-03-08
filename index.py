@@ -29,14 +29,11 @@ project_selectors = mapping["selectors"]
 
 project_data = get_text_by_selectors(project_url, project_selectors)
 
-project = {
-  "project": project_data[0],
-}
+
 
 widget_template = mapping["widget"]["template"]
 widget_names = mapping["widget"]["widgets"]
 widget_data = get_widgets_data(widget_template, widget_names)
 
-project["widget"] = widget_data
-with open('data/project.json', 'w') as file:
-     file.write(json.dumps(project))
+with open('data/project_raw.json', 'w') as file:
+     file.write(json.dumps(widget_data))
